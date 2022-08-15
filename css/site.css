@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand-Medium.eot');
+    src: url('../fonts/Quicksand-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Quicksand-Medium.woff2') format('woff2'), url('../fonts/Quicksand-Medium.woff') format('woff'), url('../fonts/Quicksand-Medium.ttf') format('truetype'), url('../fonts/Quicksand-Medium.svg#Quicksand-Medium') format('svg');
+    font-weight: 500;
+}
+
+html, body {
+    font-family: 'Quicksand',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin: 0;
+    padding: 0;
+}
+
+.bg-dark-blue {
+    background-color: #1C1D31;
+}
+
+.navbar-dark {
+    background-color: #1C1D31 !important;
+}
+
+h1, h2, h3, h4 {
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.logo {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    color: currentcolor;
+    font-size: 24px;
+    fill: currentcolor;
+    height: 30px;
+}
+
+.border-left-callout-info {
+    border-left: 3px solid #5B44A6;
+}
+
+.text-primary {
+    color: #1C1D31 !important;
+}
+
+.text-info {
+    color: #5B44A6 !important;
+}
+
+.page-item.active .page-link {
+    background-color: #5B44A6;
+    border-color: #5B44A6;
+}
+
+.page-item .page-link {
+    color: #1C1D31;
+    background-color: #F9F9F9;
+    border-color: #ffffff;
+    border-radius: 3px;
+}
+
+.page-item {
+    padding: 0 2px 0 2px;
+}
+
+
+
+.btn-success, .btn-success:focus {
+    background-color: #0BB171 !important;
+    border-color: #0bb171;
+    box-shadow: none;
+}
+
+.text-success {
+    color: #0bb171 !important;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.bg-light {
+    background-color: #F9F9F9;
+}
+
+.bg-light-aboutus {
+    background-image: url(../images/about-us-background.svg);
+    -ms-background-size: contain;
+    background-size: contain;
+}
+
+.bg-dark-aboutus {
+    background-image: url(../images/about-us-background-dark.svg);
+    -ms-background-size: contain;
+    background-size: contain;
+}
+
+.about-us-images {
+    max-width: 350px;
+}
+
+
+
+@media (max-width: 576px) {
+    .card-border-sm {
+        border: 0;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-border-sm {
+        border: 1px solid #EEEFEF;
+    }
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.aboutus-icons {
+    max-width: 115px;
+}
+
+.text-light {
+    color: #737171 !important;
+}
+
+.col-footer {
+    line-height: 2.5em;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.footer-social-icon {
+    width: 25px;
+    margin-top: 15px
+}
+
+.footer-icon {
+    width: 15px;
+}
+
+.col-stat {
+    font-size: 10px;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link,
+ul.nav .nav-item a.nav-link,
+.side-menu-sub-row a {
+    color: white;
+    text-decoration: none;
+}
+
+    .navbar .navbar-nav .nav-item a.nav-link:hover,
+    ul.nav .nav-item a.nav-link:hover,
+    .side-menu-sub-row a:hover {
+        color: #5B44A6;
+    }
+
+.navbar .navbar-nav .nav-item a.nav-link.active,
+ul.nav .nav-item a.nav-link.active {
+    border-bottom: solid 1px #5B44A6;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    margin-top: -5px;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+.navbar-arrow-icon {
+    width: 12px;
+    height: 9px;
+}
+
+.navbar-grid-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../images/navbar-toggler-icon.svg);
+}
+
+.btn-close {
+    background: transparent url(../images/close-icon.svg) center/1em auto no-repeat
+}
+
+.asset-image {
+    width: 35px;
+}
+
+.navbar.navbar-markets .navbar-nav .nav-item.active {
+    background-color: #E0E0E6;
+}
+
+.navbar.navbar-markets {
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 7%),
+                0 2px 4px rgb(0 0 0 / 5%);
+}
+
+.markets-search-textbox {
+    border: 0;
+    border-radius: 0;
+}
+
+.markets-search-addon {
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.markets-search-group {
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 5%);
+}
+
+
+.table-view-header {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+tr.table-view-row td {
+    padding: 10px 0 10px 0;
+}
+
+tr.table-view-row {
+    box-shadow: 0 0 20px rgb(238,239,239);
+    height: 70px;
+}
+
+    tr.table-view-row:hover {
+        box-shadow: 0 0 40px rgb(220,220,220);
+    }
+
+table.table-stats tr td {
+    padding-bottom: 15px;
+}
+
+small {
+    color: #737171 !important;
+}
+
+
+.side-menu-row a.nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.side-menu-row:hover {
+    background-color: #5B44A6;
+}
+
+.side-menu-sub-row a.nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.rotate180 {
+    transform: rotate(-180deg);
+}

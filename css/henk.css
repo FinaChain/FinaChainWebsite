@@ -1,0 +1,342 @@
+
+
+.round-corner-top {
+    border-radius: 0px 50px 0px 0px;
+}
+
+.article-img-border {
+    border: 1px solid #E6E7E8;
+}
+
+.rounded-top {
+    border-top-left-radius: 2.5rem !important;
+    border-top-right-radius: 2.5rem !important;
+}
+
+.text-footer {
+	font-size: 0.90rem !important;
+}
+
+
+
+.text-primary a:link {
+    color: #1C1D31 !important;
+    text-decoration: none;
+}
+
+.text-primary a:hover {
+    color: #53BDFF !important;
+    text-decoration: none;
+}
+
+.text-primary a:visited {
+    color: #1C1D31 !important;
+    text-decoration: none;
+}
+
+
+
+.social-button:hover {
+    opacity: 0.5;
+}
+
+.social-button:hover {
+    opacity: 0.5;
+}
+
+.article-border-bottom {
+    border-bottom: 1px solid #E6E7E8;
+}
+
+.text-article {
+    line-height: 2.1 !important;
+}
+
+.btn-back, .btn-back:focus {
+    background-color: #FAFAFA !important;
+    border-color: #FAFAFA;
+    color: #0F0F49;
+    box-shadow: none;
+}
+
+.no-border {
+    border: 0px !important;
+}
+
+
+
+.stepper-wrapper {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stepper-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+    .stepper-item::before {
+        position: absolute;
+        content: "";
+        border-bottom: 2px solid #ccc;
+        width: 100%;
+        top: 20px;
+        left: -50%;
+        z-index: 2;
+    }
+
+    .stepper-item::after {
+        position: absolute;
+        content: "";
+        border-bottom: 2px solid #ccc;
+        width: 100%;
+        top: 20px;
+        left: 50%;
+        z-index: 2;
+    }
+
+    .stepper-item .step-counter {
+        position: relative;
+        z-index: 5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #ccc;
+        margin-bottom: 6px;
+    }
+
+    .stepper-item.active {
+        font-weight: bold;
+    }
+
+    .stepper-item.completed .step-counter {
+        background-color: #54BEFF;
+    }
+
+    .stepper-item.completed::after {
+        position: absolute;
+        content: "";
+        border-bottom: 2px solid #54BEFF;
+        width: 100%;
+        top: 20px;
+        left: 50%;
+        z-index: 3;
+    }
+
+    .stepper-item:first-child::before {
+        content: none;
+    }
+
+    .stepper-item:last-child::after {
+        content: none;
+    }
+
+
+
+.text-light {
+    color: #FFFFFF !important;
+}
+
+    .text-light a:link {
+        color: #FFFFFF !important;
+        text-decoration: none;
+    }
+
+
+    .text-light a:visited {
+        color: #D1D3D4 !important;
+        text-decoration: none;
+    }
+
+    .text-light a:hover {
+        color: #5B44A6 !important;
+        text-decoration: none;
+    }
+
+
+.footer-logo {
+    height: 100px;
+}
+
+.bg-footer {
+    background-color: #1c1d30;
+}
+
+.about-us-items li {
+    padding-left: 35px;
+    padding-top: 25px;
+    margin: 0;
+    list-style: none;
+    background-image: url(../images/FNA/li-icon.svg);
+    -ms-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    -ms-background-position: left center;
+    background-position: left center;
+    -ms-background-size: 15px;
+    background-size: 15px;
+}
+
+.bg-purple-wave {
+    -ms-background-size: contain;
+    background-size: cover;
+    background-attachment: bottom bottom;
+    background-image: url(../images/FNA/bg-purple-wave.png);
+    min-height: 379px;
+}
+
+.bg-wave-footer {
+    -ms-background-size: contain;
+    background-size: cover;
+    background-attachment: bottom bottom;
+    background-image: url(../images/FNA/bg-wave-footer.png);
+    min-height: 379px;
+}
+
+.btn-outline-primary {
+    color: #1C1D31;
+    border-color: #1C1D31;
+}
+
+    .btn-outline-primary:hover {
+        color: #FFFFFF;
+        background-color: #5B44A6;
+        border-color: #1C1D31;
+    }
+
+.btn-outline-white {
+    color: #5B44A6;
+    border-color: #5B44A6;
+    background-color: #FFFFFF;
+}
+
+    .btn-outline-white:hover {
+        color: #FFFFFF;
+        background-color: #5B44A6;
+        border-color: #1C1D31;
+    }
+
+.btn-grey {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+    .btn-grey:hover {
+        color: #FFFFFF;
+        background-color: #1C1D31;
+        border-color: #1C1D31;
+    }
+
+.btn:hover {
+    color: #FFFFFF;
+}
+
+.sub-text {
+    color: #5B44A6;
+}
+
+.bg-purple {
+    background-color: #5B44A6;
+}
+
+
+.bg-top {
+    position: relative;
+    background-image: url("../images/FNA/bg-top.png");
+    width: 100%;
+    height: 530px;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center bottom;
+}
+
+@media all and (min-width : 320px) {
+    .bg-top {
+        position: relative;
+        background-image: url("../images/FNA/bg-top.png");
+        width: 100%;
+        height: 530px;
+        background-size: cover;
+        overflow: hidden;
+        background-position: center bottom;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (min-width : 480px) {
+    .bg-top {
+        position: relative;
+        background-image: url("../images/FNA/bg-top.png");
+        width: 100%;
+        height: 530px;
+        background-size: cover;
+        overflow: hidden;
+        background-position: center bottom;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media screen and (min-width : 992px) and (min-width : 768px) and (min-width : 1200px) {
+    .bg-top {
+        position: relative;
+        background-image: url("../images/FNA/bg-top.png");
+        width: 100%;
+        height: 530px;
+        background-size: cover;
+        overflow: hidden;
+        background-position: center bottom;
+    }
+}
+
+.box {
+    transition: box-shadow .3s;
+    border-radius: 15px;
+    background: #fff;
+}
+
+    .box:hover {
+        box-shadow: 0 0 11px rgba(91,68,146,.5);
+    }
+
+
+.box-button {
+    transition: box-shadow .3s;
+}
+
+    .box:hover {
+        box-shadow: 0 0 11px rgba(91,68,146,.5);
+    }
+
+.button-shadow {
+     transition: all 0.3s ease 0s;
+}
+
+    .button-shadow:hover {
+        box-shadow: 0px 15px 20px rgba(91,68,146,.5);
+        color: #fff;
+        transform: translateY(-7px);
+        transition: all 0.3s ease 0s;
+    }
+
+
+.button-shadow-dark {
+    transition: all 0.3s ease 0s;
+}
+
+    .button-shadow-dark:hover {
+        box-shadow: 0px 15px 20px rgba(28,29,49,.5);
+        color: #fff;
+        transform: translateY(-7px);
+        transition: all 0.3s ease 0s;
+    }
